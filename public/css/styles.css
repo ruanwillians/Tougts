@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    background-color: #222;
+    color: #FFF;
+}
+/* Header */
+Header
+#logo img {
+    height: 40px;
+}
+
+#navbar {
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    border-bottom: 1px solid #f6982d;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    padding: 5px;
+}
+
+#navbar a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar ul li a:hover{
+    color: #f6982d;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+/* messages */
+.message{
+    padding: 1em;
+    color: #004085;
+    background-color: #cde5ff;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+}
+
+/* dashboard */
+.dashboard{
+    padding: 1.5em;
+    
+}
+
+.dashboard h1{
+    margin-bottom: 0.5em;
+}
+
+.dashboard h3{
+    margin-top: 1.5em;
+    border-left: 3px solid #f6982d;
+    padding-left: 0.5em;
+}
+
+.dashboard ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dashboard li{
+    list-style: none;
+    margin-top: 1em;
+   
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f6982d; 
+}
+
+.btn-dashboard{
+    padding-top: 1.5em;
+    display: flex;
+}
+
+.btn-dashboard a {
+    margin-right: 0.5em;
+}
+
+.dashboard #empty{
+    color: #f6982d;
+}
+
+
+/* Login e register */
+
+.auth-container{
+    max-width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container h2 {
+    margin-bottom: 1em;
+    color: #FFF;
+    border-left: 4px solid #f6982d;
+    padding: 0.5em;
+    width: 500px;
+}
+
+.auth-container a {
+    color: #f6982d;
+    
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #f6982d;
+}
+
+ form input[type='submit'],
+ .btn{
+    background-color: transparent;
+    color: #f6982d;
+    border: 2px solid #f6982d;
+    padding: .5em 1.2em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+ }
+
+ form input[type='submit']:hover,
+ .btn:hover{
+    background-color: #f6982d;
+    color: #FFF;
+ }
+
+ /* create e edit form */
+ .tought-form-container a {
+    color: #f6982d;
+    padding-bottom: 1.5em;
+    text-decoration: none;
+ }
+
+ .tought-form-container a:hover{
+    color: #FFF;
+ }
+
+ .tought-form-container h1{
+    color: #FFF;
+    border-left: 4px solid #f6982d;
+    padding: 0.5em;
+    margin-top: 0.7em;
+ }
+
+ .tought-form-container form {
+    max-width: 30%;
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .tought-form-container{
+    padding-left: 1.5em;
+ }
+
+ /* home */
+.home-header h1{
+    margin-bottom: 0.5em;
+}
+
+.home-header .search{
+    width: 350px;
+    height: 35px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+
+.home-header span {
+    color: #f6982d;
+}
+ .home-header,
+ .toughts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .order-container{
+    display: flex;
+    margin-top: 1.5em;
+ }
+
+ .order-container form{
+    padding-right: 1em;
+ }
+
+ .order-container i{
+    cursor: pointer;
+ }
+
+ .order-container span{
+    padding-right: 1em;
+
+ }
+
+ .order-container a{
+    text-decoration: none;
+    color: #FFF;
+    cursor: pointer;
+ }
+
+ .toughts-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 600px;
+    margin-left: 27%;
+ }
+
+ .toughts-container blockquote{
+    font-size: 35px;
+    font-style: italic;
+    padding-top: 0.5em;
+ }
+
+ .toughts-container figcaption{
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    width: 600px;
+    border-bottom: 1px solid #FFF;
+ }
+ 
+ .toughts-container span{
+    color: #f6982d;
+ }
+ 
+
+/* Footer */
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #f6982d;
+    margin-top: 0.5em;
+}
+
+footer span{
+    color: #f6982d;
+    font-weight: bold;
+}
+
